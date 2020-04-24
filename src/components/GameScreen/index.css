@@ -1,0 +1,129 @@
+.gameScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/bg.png');
+    background-size: cover;
+}
+
+.timerContainer {
+    position: absolute;
+    color: white;
+    font-weight: 800;
+    top: 5%;
+    left: 4%;
+    font-size: 3vw;
+}
+
+.exitContainer {
+    background-image: url('../../images/exit.png');
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    cursor: pointer;
+}
+
+.scoreContainer {
+    position: absolute;
+    color: white;
+    font-weight: 800;
+    top: 4%;
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+.gameField {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.gameFieldBig {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    border: 2px solid black;
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: url('../../images/card.png');
+    background-size: cover;
+    cursor: pointer
+}
+
+.opened {
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -ms-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+    opacity: 0;
+}
+
+.card1 {
+    background-image: url('../../images/cards/card1.png') !important;
+}
+
+.card2 {
+    background-image: url('../../images/cards/card2.png') !important;
+}
+
+.card3 {
+    background-image: url('../../images/cards/card3.png') !important;
+}
+
+.card4 {
+    background-image: url('../../images/cards/card4.png') !important;
+}
+
+.card5 {
+    background-image: url('../../images/cards/card5.png') !important;
+}
+
+.card6 {
+    background-image: url('../../images/cards/card6.png') !important;
+}
+
+
+.alertContainer {
+    z-index: 3;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 300px;
+    width: 60%;
+    min-width: 340px;
+    background-image: url('../../images/alert.png');
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding:30px 0px;
+
+}
+
+.alertGameOver {
+    color: white;
+    font-size: 5vw;
+    font-weight: 800;
+   text-shadow: black 2px 5px 5px;
+}
+
+.alertScore {
+    color: white;
+    font-size: 4.2vw;
+    font-weight: 800;
+    text-shadow: black 2px 5px 5px;
+}
